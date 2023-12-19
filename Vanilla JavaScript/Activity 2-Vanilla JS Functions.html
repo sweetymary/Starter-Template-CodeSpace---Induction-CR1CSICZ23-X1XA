@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style type="text/css">
+body {
+ margin: 30px;
+ }
+</style>
+</head>
+
+<body>
+<p>JavaScript function to calculate the factorial of a number(a non-negative integer n)</p>
+<script language="JavaScript">
+//function of a factorial number
+function factorial(n) {
+if (n == 0) return 1;
+return n*factorial(n - 1);//Factorial of a non-negative intenger is the multiplication of all positive intengers smaller than or equal to n. 
+}
+let num = 9;// Number given by the user.
+document.write("Factorial of " + num + " is " + factorial(num)); //The output of a factorial number.
+</script>
+</body>
+</html>

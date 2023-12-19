@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style type="text/css">
+body {
+ margin: 30px;
+ }
+</style>
+</head>
+<body>
+<p>Program to display if the numbers are in increasing/decreasing order</p>
+
+<script language="JavaScript">
+
+var a = 1524;
+var b = 2345;
+var c = 3321;
+
+if(c < a && c < b && b > a) {
+alert("3321, 2345, 1524");//Neither increasing or decreasing order
+}
+else if(c > a && c > b && b > a) {
+alert("3321, 2345, 1524");// Increasing order
+}
+ if(a < b && a < c && b < c) {
+alert("1524, 2345, 3321");//Decreasing order
+}
+
+</script>
+
+</body>
+</html>

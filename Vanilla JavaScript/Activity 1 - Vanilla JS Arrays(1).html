@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<style type="text/css">
+body {
+ margin: 30px;
+ }
+</style>
+</head>
+
+<body>
+<p>JavaScript program to sum values of an array</p>
+<script language="JavaScript">
+
+function sumArray(array){
+const Array=[1,2,3,4,5,6,7,8,9,10];
+  let sum = 0; // the sum is initialed to 0,JS arrays are zero-index based 
+ for (let i = 0; i < array.length; i += 1) {
+  // take every item in the array and add it to sum variable
+  sum += array[i]
+  }
+  //iteretion 1: 0 + 1 => sum = 1
+  //iteretion 2: 1 + 1 => sum = 2
+  //iteration 3: 2 + 2 => sum = 4
+  //iteretion 4: 4 + 3 => sum = 7
+  //iteretion 5: 7 + 4 => sum = 11
+  //iteretion 6: 11 + 5 => sum = 16
+  //iteretion 7: 16 + 6 => sum = 22
+  //iteretion 8: 22 + 7 => sum = 29
+  //iteretion 9: 29 + 8 => sum = 37
+  //iteretion 10: 37 + 9 => sum = 46
+  //iteretion 11: 46 + 10 => sum = 56
+  document.write(sum)
+ return sum;
+} 
+ sumArray([1,2,3,4,5,6,7,8,9,10]);//56, the length property is always one more than the highest array index.
+</script>
+</body>
+</html>
+ 

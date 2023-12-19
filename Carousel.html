@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet    "
+href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootst
+rap.min.css"
+integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuq
+KfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+
+    <title>Hello, world!</title>
+	<style>
+	  
+	ul {
+	 list-style-type: none;
+	 margin: 5px;
+	 padding: 8px;
+	 background-color: #999;
+	 overflow: hidden;
+	 }
+	 
+	 li }
+	  float:left;
+	  }
+	  
+	 
+	 li a, .dropbtn {
+	 display: block;
+	 color: white;
+	 text-align: center;
+	 padding: 14px 16px;
+	 text-decoration: none;
+	 }
+	 
+	 
+	 li.dropdown {
+	 display: inline-block;
+	 }
+	 
+	.dropdown-content {
+	 display: none;
+	 position: relative;
+	 background-color: white;
+	 min-width:160px;
+	 box-shadow: 0px 14px 16px 0px rgba(0,0,0,0.2);
+	 }
+	 
+	 .dropdown-content a {
+	  color: black;
+	  padding: 5px 8px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	  }
+	  
+	  .dropdown-content a:hover {background-color: #f3f3f3;}
+	  
+	  .dropdown:hover .dropdown-content {
+	   display: block;
+	   }
+	  
+	  img {
+	   max-width: 100%;
+	   height: auto;
+	   }
+	   
+	   body {
+	     font-family: sans-serif;
+		 }
+	   
+	   .carousel {
+	     margin: 0 auto;
+		 overflow: hidden;
+		 text-align: center;
+		 }
+	   
+	   .slides {
+	     display: flex;
+	     overflow-x: scroll;
+		 scroll-snap-type: x mandatory;
+		 scroll-behavior: smooth;
+		 }
+		 
+		.slides-item {
+		  align-item: center;
+		  border-radius: 7px;
+		  display: flex;
+		  flex-shrink: 0;
+		  font-size: 15px;
+		  height: 200px;
+		  justify-content: center;
+		  margin: 0 1rem;
+		  position: relative;
+		  scroll-snap-align: start;
+		  transform: scale(1);
+		  transform-origin: center center;
+		  width: 50%;
+		  }
+		  
+.carousel_nav {
+	padding: 1.25rem .5rem;
+	}
+			
+.slider-nav {
+  align-items: center;
+  background-color: #ddd;
+  border-radius: 50%;
+  color: #000;
+  display: inline-flex;
+  height: 1.5rem;
+  justify-content: center;
+  padding: .5rem;
+  position: relative;
+  text-decoration: none;
+  width: 1.5rem;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+  background-color: #000;
+  color: #fff;
+  }
+
+
+
+.slide-1 {
+  background-color: #fdc;
+}
+
+.slide-2 {
+  background-color: #bfd;
+}
+
+.slide-3 {
+  background-color: #cdf;
+}
+
+  
+	   
+  </style>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+	
+<ul>
+ 
+<li class="dropdown">
+<a href="javascript:void(0)" class="dropbtn" style="color: black; font-weight: 600; text-decoration: none">Navbar</a>
+<div class="dropdown-content">
+<a class="dropdown-item" href="#">Home</a>
+<a class="dropdown-item" href="#">Link</a>
+<a class="dropdown-item" href="#">Disabled</a>
+<a class="dropdown-item" href="#">Action</a>
+<a class="dropdown-item" href="#">Another action</a>
+<a class="dropdown-item" href="#">Something else here</a>
+</div>
+</li>
+</ul>
+
+<div id="carouselExampleIndicators" class="carousel slide"
+ data-ride="carousel">
+ <div class="carousel-indicators">
+   <button type="button" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></button>
+   <button type="button" data-target="#carouselExampleSIndicators" data-slide-to="1"></button>
+   <button type="button" data-target="#carouselExampleIndicators" data-slide-to="2"></button>
+<section class="carousel">
+<div class="slides">
+<div class="slides-item  slide-1" id="slide-1">slide 1</div>
+ <div class="slides-item  slide-2" id="slide-2">slide 2</div>
+ <div class="slides-item  slide-3" id="slide-3">slide 3</div>
+ </div>
+ </section>
+   <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+ 
+</div>
+</div>
+
+</body>
+</html>
+
+
+
+<script
+src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.mi
+n.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+Ib
+bVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+ <script
+src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstra
+p.bundle.min.js"
+integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXg
+qbR9W8oWht/amnpF" crossorigin="anonYmous"></script>
+
